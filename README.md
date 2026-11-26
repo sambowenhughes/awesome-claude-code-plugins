@@ -201,6 +201,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Audio & Media
 - [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
+- [lotsofsounds](https://github.com/lotsofsounds/agent-skills) - Search and add CC0 royalty-free sound effects, UI sounds, game audio, and ambience to a project via the `lotsofsounds` skill and hosted MCP server (`https://api.lotsofsounds.com/mcp`).
 
 ### Design UX
 - [brand-guardian](./plugins/brand-guardian)
@@ -394,6 +395,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [lotsofsounds/agent-skills](https://github.com/lotsofsounds/agent-skills) | CC0 sound effects skill and hosted MCP server (`https://api.lotsofsounds.com/mcp`) | `claude plugin marketplace add lotsofsounds/agent-skills` then `claude plugin install lotsofsounds@lotsofsounds` |
 
 
 ### Skills & Frameworks
